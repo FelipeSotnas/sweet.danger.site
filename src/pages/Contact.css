@@ -1,0 +1,55 @@
+/* Estilo para o título da página de Contato */
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #FF4500; /* Cor retro */
+  }
+  
+  /* Estilo para o container da página de Contato */
+  .contact-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Estilo para o formulário de Contato */
+  .contact-form {
+    display: grid;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Estilo para os campos do formulário */
+  label {
+    font-size: 1.2rem;
+    color: #33FF99; /* Cor retro */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  /* Estilo para o botão de envio */
+  button[type="submit"] {
+    background-color: #FF4500; /* Cor retro */
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #FFA500; /* Cor retro mais clara */
+  }
+  

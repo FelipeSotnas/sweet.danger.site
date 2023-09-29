@@ -1,0 +1,33 @@
+/* Estilo para o título da página de Galeria */
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #FF4500; /* Cor retro */
+}
+
+/* Estilo para o container da página de Galeria */
+.gallery-container {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Estilo para a grade de fotos */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+/* Estilo para cada foto na grade */
+.photo {
+  background-color: #333; /* Fundo escuro */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Estilo para a descrição da foto */
+.photo p {
+  font-size: 1rem;
+  color: #FFA500; /* Cor retro mais clara */
+}

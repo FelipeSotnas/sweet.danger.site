@@ -1,0 +1,37 @@
+/* Estilo para o título da página de Shows */
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #FF4500; /* Cor retro */
+  }
+  
+  /* Estilo para o container de Shows */
+  .shows-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Estilo para a lista de shows */
+  .show-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Estilo para cada item da lista de shows */
+  .show-list li {
+    font-size: 1.2rem;
+    margin: 20px;
+    color: #33FF99; /* Cor retro */
+  }
+  
+  /* Estilo para o link de compra de ingressos */
+  .buy-link {
+    margin-left: 20px;
+    color: #FFD700; /* Cor retro */
+    text-decoration: none;
+  }
+  
+  .buy-link:hover {
+    text-decoration: underline;
+  }
+  

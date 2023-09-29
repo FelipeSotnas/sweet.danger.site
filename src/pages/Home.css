@@ -1,0 +1,57 @@
+/* Estilo para o título da Home */
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #FF4500; /* Cor retro */
+}
+
+/* Estilo para a imagem da Home */
+.home-image {
+  width: 100%;
+  max-height: 500px; /* Altura máxima */
+  object-fit: cover; /* Mantém o aspecto da imagem */
+  margin-top: 20px;
+}
+
+/* Estilo para o parágrafo da Home */
+p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 20px;
+  color: #33FF99; /* Cor retro */
+}
+
+/* Estilo para o container da Home */
+.home-container {
+  text-align: center;
+}
+
+/* Estilo para a seção "Sobre a Banda" */
+.about-section {
+  margin-top: 40px;
+  color: #FFD700; /* Cor retro */
+}
+
+/* Estilo para o texto da seção "Sobre a Banda" */
+.about-section p {
+  font-size: 1.1rem;
+}
+
+/* Estilo para a seção de vídeo */
+.video-section {
+  margin-top: 40px;
+  color: #FF4500; /* Cor retro */
+}
+
+/* Estilo para o título da seção de vídeo */
+.video-section h2 {
+  font-size: 2rem;
+}
+
+/* Estilo para o iframe do vídeo */
+iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+  margin-top: 20px;
+}
